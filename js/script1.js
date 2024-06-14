@@ -88,10 +88,10 @@
 // var numero1 = 7;
 // var numero2 = 8;
 // function menor(primero, segundo) {
-//     var elmenor = primero; //asigna el valor
+//     var elMenor = primero; //asigna el valor
 //     if (segundo < primero) //true o false
-//         elmenor = segundo;
-//     return elmenor;
+//         elMenor = segundo;
+//     return elMenor;
 // }
 // console.log(menor(numero1, numero2));
 
@@ -101,7 +101,7 @@
 // 4.1 Descuentos
 // Escribe una función que reciba como parámetros un precio y un porcentaje de descuento y devuelva el precio nuevo.
 
-let precio = Number(prompt("Escirbe un precio"));
+let precio = Number(prompt("Escribe un precio"));
 let porcentaje = Number(prompt("Escribe un descuento"));
 
 
