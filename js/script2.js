@@ -12,7 +12,7 @@ for (let [pais, capital] of mapa) {
   let paisOp = document.createElement("option");
   paisOp.textContent = pais;
   paisOp.setAttribute("id", pais); //poner un id a los países
-  select.appendChild(paisOp);
+  select.appendChild(paisOp); //para en el select crear opciones
 }
 select.addEventListener("change", function () {
   let capitalS = mapa.get(select.value); //indice valor
